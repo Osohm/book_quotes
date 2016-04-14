@@ -1,7 +1,4 @@
-Book Summary Quotes
-===================
+Book Quotes
+===========
 
-These are summary notes taken from different books. These 
-are either quotes (plain text files) or learning notes.
-
-
+Assorted quotes of remarkable books in plain text format.
