@@ -1,10 +1,3 @@
-*****************************************************************
-#                       Take on the Street                      #
-# What Wall Street and Corporate America Don't Want You to Know # 
------------------------------------------------------------------
-##                           Quotes                            ##
-*****************************************************************
-
 I learned that when it comes to protecting investors, no political party 
 has an edge over the conscience of an honest public servant.
 
@@ -623,4 +616,16 @@ cash flow, sounds deceptive, but it is perfectly legal. If you want a
 truer picture of operating cash flow, subtract the stock option tax 
 benefit.
 
-// Don't ignore the foot notes.
+After plowing through the balance sheet, income statement, and 
+cash-flow statement, you'll still need to parse the footnotes. The 
+footnotes are important; they give you vital additional information, 
+and they sometimes leave an entirely different impression from the rosy 
+portrait the company may have painted in the financial statements.
+
+Don't be intimidated. Too many companies would prefer that you not read 
+the footnotes. That should be incentive enough to delve into them. The 
+footnotes tell the story behind the numbers, and they may contain 
+valuable information about risks and uncertainties that could affect 
+future performance.
+
+// page 82.

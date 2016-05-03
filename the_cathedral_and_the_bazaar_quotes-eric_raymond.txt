@@ -1,0 +1,303 @@
+Linux Torvalds's Style of development: Release early and often, 
+delegate everything you can and be open to the point of promiscuity.
+
+Every good work of software starts by scratching a developer's 
+personal itch.
+
+Good programmers know what to write. Great ones know what to rewrite 
+(and reuse).
+
+An important trait of good programmers is constructive laziness. 
+They know that you get an A not for effort but for results. 
+
+It's almost always easier to start from a good partial solution than 
+from nothing at all.
+
+Spending time looking for some else's almost-good-enough is more 
+likely to give you good results in the Linux world than anywhere else.
+
+Plan to throw one away; you will, anyhow. (The Mythical Man-Month)
+
+You often don't really understand the problem until after the first 
+time you implement a solution. The second time, maybe you know enough 
+to do it right. So if you want to get it right, be ready to start over 
+at least once.
+
+If you have the right attitude, interesting problems will find you.
+
+When you lose interest in a program, your last duty to it is to hand 
+it off to a competent successor.
+
+Users are wonderful things to have, and not just because they 
+demonstrate that you're serving a need, that you've done something 
+right. Properly cultivated, they can become co-developers.
+
+Given a bit of encouragement, your users will diagnose problems, 
+suggest fixes, and help improve the code far more quickly than you 
+could unaided.
+
+Treating your users as co-developers is your least-hassle route to 
+rapid code improvement and effective debugging.
+
+I think Linus's cleverest and most consequential hack was not the 
+construction of the Linux kernel itself, but rather his invention of 
+the Linux development model.
+
+Release early. Release often. And listen to your customers.
+
+Linus seems to me to be a genius of engineering and implementation, 
+with a sixth sense for avoiding bugs and development dead-ends and a 
+true knack for finding the minimum-effort path from point A to point B.
+
+Given enough eyeballs, all bugs are shallow. Every problem will be 
+transparent to somebody. Given a large enough beta-tester and 
+co-developer base, almost every problem will be characterized 
+quickly and the fix obvious to someone. 
+
+The person who understands and fixes a bug is not necessarily or even 
+usually the person who first characterizes it. Somebody finds the 
+problem, and somebody else understands it (Linus Torvalds). I'll go 
+on record as saying that finding it is the bigger challenge.
+
+In the cathedral-builder view of programming, bugs and development 
+problems are tricky, insidious, deep phenomena. It takes months of 
+scrutiny by a dedicated few to develop confidence that you've 
+winkled them all out. Thus the long release intervals, and the 
+inevitable disappointment when long-awaited releases are not perfect.
+
+In the bazaar view of pragramming, you assume that bugs are generally 
+shallow phenomena or, at least, that they turn shallow pretty quickly 
+when exposed to a thousand eager co-developers pounding on every 
+single new release. Accordingly you release often in order to get more 
+corrections, and as a beneficial side effect you have less to lose if 
+an occasional botch gets out the door.
+
+The averaged opinion of a mass of equally expert (or equally 
+ignorant) observers is quite a bit more reliable a predictor than 
+the opinion of a single randomly-chosen one of the observers. 
+(Delphi Effect).
+
+Although debugging requires debuggers to communicate with some 
+coordinating developer, it doesn't require significant coordination 
+between debuggers. Thus it doesn't fall prey to the same quadratic 
+complexity and management costs that make adding developers 
+problematic.
+
+One effect of a "release early and often" policy is to minimize 
+duplication by propagating fed-back fixes quickly.
+
+More users find more bugs because adding more users adds more 
+different ways of stressing the program. This effect is amplified 
+when the users are co-developers. Each one approaches the task of 
+bug characterization with a slightly different perceptual set and 
+analytical toolkit, a different angle on the problem.
+
+Adding more beta-testers may not reduce the complexity of the 
+current "deepest" bug from the developer's point of view, but it 
+increases the probability that someone's toolkit will be matched to 
+the problem in such a way that the bug is shallow to that person.
+
+The fundamental problem that traditional software-development 
+organizations face is Brook's Law: "Adding more programmers to a 
+late project makes it later." More generally, Brooks's Law predicts 
+that the complexity and communication costs of a project rise with 
+the square of the number of developers, while work done only rises 
+linearly.
+
+I grew my beta list by adding to it everyone who contacted me about 
+fetchmail. I sent chatty announcements to the beta list whenever I 
+released, encouraging people to participate. And I listened to my 
+beta-testers, polling them about design decisions and stroking them 
+whenever they sent in patches and feedback.
+
+If you treat your beta-testers as if they're your most valuable 
+resource, they will respond by becoming your most valuable resource.
+
+The next best thing to having good ideas is recognizing good ideas 
+from your users. Sometimes the latter is better.
+
+Interestingly enough, you will quickly find that if you are 
+completely and self-deprecatingly truthful about how much you owe 
+other people, the world at large will treat you as though you did 
+every bit of the invention yourself and are just being becomingly 
+modest about your innate genius.
+
+Often, the most striking and innovative solutions come from 
+realizing that your concept of the problem was wrong.
+
+When you hit a wall in development-when you find yourself hard put 
+to think past the next patch-it's often time to ask not whether 
+you've got the right answer, but whether you're asking the right 
+question. Perhaps the problem needs to be reframed.
+
+Don't hesitate to throw away superannuated features when you can do 
+it without loss of effectiveness.
+
+Perfection (in design) is achieved not when there is nothing more to 
+add, but rather when there is nothing more to take away.
+
+When your code is getting both better and simpler, that is when you 
+know it's right.
+
+It is not only debugging that is parallelizable; development and (to 
+a perhaps surprising extent) exploration of design space is, too.
+
+have the engineering judgment to take other peoples' good ideas 
+beyond where the originators thought they could go.
+
+Any tool should be useful in the expected way, but a truly great 
+tool lends itself to uses you never expected.
+
+It's fairly clear that one cannot code from the ground up in bazaar 
+style [IN]. One can test, debug and improve in bazaar style, but it 
+would be very hard to originate a project in bazaar mode.
+
+When you start community-building, what you need to be able to 
+present is a plausible promise; a proof of concept. Your program 
+doesn't have to work particularly well. It can be crude, buggy, 
+incomplete, and poorly documented. What it must not fail to do is 
+(a) run, and (b) convince potential co-developers that it can be 
+evolved into something really neat in the foreseeable future. 
+
+I think it is not critical that the coordinator be able to originate 
+designs of exceptional brilliance, but it is absolutely critical 
+that the coordinator be able to recognize good design ideas from 
+others.
+
+But the problem with being clever and original in software design is 
+that it gets to be a habit-you start reflexively making things cute 
+and complicated when you should be keeping them robust and simple.
+
+A certain base level of design and coding skill is required, of 
+course, but I expect almost anybody seriously thinking of launching 
+a bazaar effort will already be above that minimum.
+
+A bazaar project coordinator or leader must have good people and 
+communications skills.
+
+In order to build a development community, you need to attract 
+people, interest them in what you're doing, and keep them happy 
+about the amount of work they're doing. Technical sizzle will go a 
+long way towards accomplishing this, but it's far from the whole 
+story. The personality you project matters, too.
+
+To make the bazaar model work, it helps enormously if you have at 
+least a little skill at charming people.
+
+The best hacks start out as personal solutions to the author's 
+everyday problems, and spread because the problem turns out to be 
+typical for a large class of users. 
+
+To solve an interesting problem, start by finding a problem that is 
+interesting to you.
+
+Programmer time is not fungible; adding developers to a late 
+software project makes it later.
+
+The complexity and communication costs of a project rise with the 
+square of the number of developers, while work done only rises 
+linearly (Brook's Law).
+
+In shops where developers are not territorial about their code, and 
+encourage other people to look for bugs and potential improvements 
+in it, improvement happens dramatically faster than elsewhere.
+
+The developer who uses only his or her own brain in a closed project 
+is going to fall behind the developer who knows how to create an 
+open, evolutionary context in which feedback exploring the design 
+space, code contributions, bug-spotting, and other improvements come 
+from from hundreds (perhaps thousands) of people.
+
+I began to appreciate the difference between acting on the principle 
+of command and discipline and acting on the principle of common 
+understanding. The former works admirably in a military parade, but 
+it is worth nothing that where real life is concerned, the aim can 
+be achieved only through the severe effort of many converging wills.
+
+To operate and compete effectively, hackers who want to lead 
+collaborative projects have to learn how to recruit and energize 
+effective communities of interest.
+
+The Linux world behaves in many respects like a free market or an 
+ecology, a collection of selfish agents attempting to maximize 
+utility which in the process produces a self-correcting spontaneous 
+order more elaborate and efficient than any amount of central 
+planning could have achieved.
+
+The "utility function" Linux hackers are maximizing is not 
+classically economic, but is the intangible of their own ego 
+satisfaction and reputation among other hackers.
+
+Many people (especially those who politically distrust free markets) 
+would expect a culture of self-directed egoists to be fragmented, 
+territorial, wasteful, secretive, and hostile. But this expectation 
+is clearly falsified by (to give just one example) the stunning 
+variety, quality, and depth of Linux documentation.
+
+Both the fetchmail and Linux kernel projects show that by properly 
+rewarding the egos of many other hackers, a strong 
+developer/coordinator can use the Internet to capture the benefits 
+of having lots of co-developers without having a project collapse 
+into a chaotic mess.
+
+Provided the development coordinator has a communications medium at 
+least as good as the Internet, and knows how to lead without 
+coercion, many heads are inevitably better than one.
+
+I think that the cutting edge of open-source software will belong to 
+people who start from individual vision and brilliance, then amplify 
+it through the effective construction of voluntary communities of 
+interest.
+
+Perhaps in the end the open-source culture will triumph not because 
+cooperation is morally right or software "hoarding" is morally wrong 
+(assuming you believe the latter, which neither Linus nor I do), but 
+simply because the closed-source world cannot win an evolutionary 
+arms race with open-source communities that can put orders of 
+magnitude more skilled time into a problem.
+
+In software development it is really sustained effort over time and 
+the degree to which customers can expect continuing investment in 
+the product that matters, not just how many people have thrown a 
+bone in the pot and left it to simmer.
+
+One thing many people think the traditional mode buys you is 
+somebody to hold legally liable and potentially recover compensation 
+from if the project goes wrong. But this is an illusion; most 
+software licenses are written to disclaim even warranty of 
+merchantability, let alone performance-and cases of successful 
+recovery for software nonperformance are vanishingly rare.
+
+Through open source we're proving not only that we can do better 
+software, but that joy is an asset.
+
+Human beings generally take pleasure in a task when it falls in a 
+sort of optimal-challenge zone; not so easy as to be boring, not too 
+hard to achieve. A happy programmer is one who is neither 
+underutilized nor weighed down with ill-formulated goals and 
+stressful process friction.
+
+Enjoyment predicts efficiency. Joy, humor, and playfulness are 
+indeed assets.
+
+It may well turn out that one of the most important effects of open 
+source's success will be to teach us that play is the most 
+economically efficient mode of creative work.
+
+When programmers are held both to an immutable feature list and a 
+fixed drop-dead date, quality goes out the window and there is 
+likely a colossal mess in the making.
+
+It may well turn out to be that the process transparency of open 
+source is one of three co-equal drivers of its quality, along with 
+"wake me up when it's done" scheduling and developer self-selection.
+
+True communication is possible only between equals, because 
+inferiors are more consistently rewarded for telling their superiors 
+pleasant lies than for telling the truth. Creative teamwork utterly 
+depends on true communication and is thus very seriously hindered by 
+the presence of power relationships.
+
+The open-source community, effectively free of such power 
+relationships, is teaching us by contrast how dreadfully much they 
+cost in bugs, in lowered productivity, and in lost opportunities.
