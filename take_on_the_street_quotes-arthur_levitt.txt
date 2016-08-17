@@ -10,12 +10,14 @@ The farmer in Des Moines, the teacher in Coral Gables, and the truck
 driver in Syracuse all have a common interest in full disclosure, 
 reliable numbers, clearly written documents, and a vigilant regulatory 
 system. But no regulator can provide total protection against fraud. 
+It is the individual's responsibility to discern hidden motivations and 
+conflicts of interest.
+
 No law has been devised to anticipate the deceptions and distortions 
-that are inevitable in markets fueled by hype and hope. America's 
-markets operate by a set of rules that are half written and half 
-custom. That makes the individual's responsibility to discern hidden 
-motivations and conflicts o interest as important as any law or 
-regulation.
+that are inevitable in markets fueled by hype and hope. America's markets 
+operate by a set of rules that are half written and half custom. That makes the 
+individual's responsibility to discern hidden motivations and conflicts of 
+interest as important as any law or regulation.
 
 Many brokers are paid a commission, or a service fee on every 
 transaction in accounts they manage. They want you to buy stocks you 
@@ -476,9 +478,8 @@ company may not be managing or investing its R&D dollars wisely.
 Gains or losses from discontinued operations, restructuring costs 
 and extraordinary gains or losses must be unrelated to the business's 
 normal activities and they must be one-time and highly unusual events. 
-Be careful, in the last dozen or so years, companies have made liberal 
-use of this description for items that are not, in fact, unusual or 
-one-time events.
+Be careful, in the last dozen or so years, companies have abused this 
+category.
 
 If a company has determined that one of its operating divisions has 
 experienced lower sales and reduced profitability, it could decide to 
@@ -877,9 +878,11 @@ A 401(k) is one of the federal government's major incentives to get
 Americans to save more for retirement. You can steer a portion of your 
 compensation to a retirement plan as a deduction from your salary. 
 Your contribution automatically is deducted from your paycheck and is
-then invested in financial assets. The contributions, plus any 
-investment earnings, are taxed only when withdrawn, presumably when you 
-are older and subject to a lower marginal income tax rate.
+then invested in financial assets. 
+
+Your 401(k) contributions, plus any investment earnings, are taxed 
+only when withdrawn, presumably when you are older and subject to a 
+lower marginal income tax rate.
 
 A defined-benefit retirement plan promises an employee a specified 
 monthly benefit at retirement. Typically, the benefit is calculated 
