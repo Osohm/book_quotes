@@ -1,4 +1,4 @@
-Meditation: The practice of mindfulness.
+﻿Meditation: The practice of mindfulness.
 
 Meditation is not easy. It takes time and it takes energy. It also 
 takes grit, determination and discipline. 
@@ -346,7 +346,6 @@ We may feel, greed, lust, or jealousy. We may feel fear, worry,
 restlessness, or boredom. These reactions are also universal. We 
 should realize that these reactions are normal human responses, and 
 can arise in anybody.
-
 
 Although there are many subjects of meditation, we strongly recommend 
 that you start with focusing your undivided attention on your breathing 

@@ -201,16 +201,11 @@ say to avoid. When consumers buy a car or a refrigerator, they check
 when they buy a stock, to whom do they turn if analysts are shills of 
 corporations?
 
-Analysts usually specialize in a sector of the economy, such as 
-telecommunications or autos, and write reports on the companies in 
-that sector. Like peeling an onion, they uncover layer upon layer of 
-information about where a company has been, and where it is likely to 
-go. They review financial performance, the management team, product 
-strength, and market-share position. They also assess the economic 
-climate in which the company operates, and its ability to sell more 
-products or services and increase profits. Analysts use all this 
-information to try to predict the company's future - and its share 
-price - so that investors know when to buy, hold, or sell.
+Analysts usually specialize in a sector of the economy and write reports on 
+the companies in that sector. They review financial performance, the 
+management team, product strength, and market-share position. They use all 
+this information to try to predict the company's future - and its share price - 
+so that investors know when to buy, hold, or sell.
 
 What most individual investors don't understand is that, 
 statistically, only half of all stocks can perform better than the 
@@ -1028,4 +1023,3 @@ employer has recently experienced severe financial difficulty.
 Isn't There a Way to Guarantee My Pension? Not if your pension is a 
 401(k) plan. 401(k) plans are not real pensions, but tax-deferred 
 savings plans.
-
