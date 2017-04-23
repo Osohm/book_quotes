@@ -1,0 +1,58 @@
+Ohm was an outstanding, inspiring teacher. He had the knack to make even a 
+usually dull subject such as geometry attractive to his students. But he was 
+stuck in the level below the university. He knew that to move up he needed to do 
+research. Even in those days professors needed to publish to be promoted. 
+Simply being a good teacher, unfortunately, never accounted for much. 
+
+Picture a lake high up in the mountains and a river flowing from it to the ocean.  
+The altitude of the lake is the voltage (or the potential). The flowing water 
+in the river is the current. If the riverbed is wide and smooth, the water 
+finds it easy to flow downhill; if the bed is narrow and rocky, the water 
+encounters resistance and the flow is reduced (a great simple analogy).  
+
+In electrical terms, if you have a small voltage and a thin wire that conducts 
+poorly, you only get a small current. If you want to increase this current you 
+either need a higher voltage or a thicker wire of better-suited material, 
+or both. This is nothing less than the fundamental electric law described by Ohm.
+
+Ohm discovered (but was unable to describe) that electric current is like the 
+flow of water. Current increases with the altitude of  the reservoir 
+(the voltage of the battery) and by making the river wide and smooth 
+(decreasing resistance). There needs to be a return path in either case.
+
+Efficiency can be attained by understanding the fundamental principles.
+
+Maxwell had become enamored by Faraday's images of magnetic and electric fields 
+and was convinced that what Faraday had discovered experimentally could be captured 
+Mathematically. He did prove it. For 20 years he worked and published a book 
+in 1873.
+
+Maxwell explained the relationship between electricity and magnetism in just 
+four terse equations, but more importantly he proved that the interplay between 
+electric and magnetic forces created "electromagnetic" waves and that light 
+was such a wave.
+
+The fascinating part of Maxwell's work is that his theory predicted the existence 
+of radio waves, where no one had even noticed radio waves.
+
+Even though the computer is purely an electrical machine and the brain employs a 
+mixture of electricity and chemistry, the basic elements of the two are the 
+same. They are both gates, responding to stimuli. Computers use simple gates. In 
+the brain this gate is far more complex and it has a logic form far more 
+flexible. 
+
+Computers use simple gates. In the brain this gate is far more complex (up to 
+10,000 inputs) and it has a logic form far more flexible (some inputs say yes, 
+some no and some perhaps or almost). This is the main reason the brain is less 
+accurate than a computer, but far more creative. Also, in a computer the logic 
+wiring is fixed, in the brain it is subject to learning.
+
+We must keep in mind that the vast majority of inventions and
+discoveries consist of small steps, which occasionally trigger a larger one.
+
+Scientific progress is not primarily the fruit of a few extraordinary thinkers
+but the contribution of many people; people who will never get a Nobel Prize
+or become famous, but have the immeasurable satisfaction of having been there.
+
+Quite often the "distinction" or "award" of having discovered or invented 
+something important is simply a matter of luck.
